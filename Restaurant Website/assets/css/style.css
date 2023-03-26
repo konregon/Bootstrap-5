@@ -1,4 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap');
+
+:root{
+
+    --bread-color-primary: #de834d;
+    --bread-color-dark: #eec07b;
+    --bread-color-extra-dark: #6d3200;
+}
+
 *{
+    
+}
+
+body{
+    color: #777;
+    line-height: 1.7;
     font-family: 'Spline Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+}
+
+a {
+    /* color: #222; */
+    text-decoration: none;
+    transition: all .4s;
+    /* font-weight: 600; */
+}
+
+a:hover{
+    /* color: var(--bread-color-dark); */
+}
+
+img{
+    /* min-width: 100%; */
+}
+
+/* nav btn */
+.btn{
+    border-radius: 4px;
+    padding: 14px 38px;
+}
+
+.btn.btn-brand{
+    color: #fff;
+    font-weight: 500;
+    border-color: var(--bread-color-dark);
+    background-color: var(--bread-color-primary);
+}
+
+.btn.btn-brand:hover{
+    color: #fff;
+    border-color: var(--bread-color-primary);
+    background-color: var(--bread-color-extra-dark);
 }
