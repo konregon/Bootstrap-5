@@ -32,7 +32,9 @@ a {
 
 a:hover {}
 
-img {}
+img {
+    /* width: 100%; */
+}
 
 /* nav btn */
 .btn {
@@ -66,4 +68,16 @@ img {}
 
 .slide-2 {
     background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.493)), url(../images/cover2.jpg);
+}
+
+/* About us */
+#about img {
+    width: 100%;
+}
+
+#about .divider {
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: #e85d04;
 }
