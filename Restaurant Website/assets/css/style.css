@@ -160,3 +160,10 @@ section {
 .feature .feature-icon i {
     /* width: 100%; */
 }
+
+/* team */
+.team-member img {
+    max-width: 150px;
+    box-shadow: -10px -10px 0 #e85d04;
+    border-radius: 110px;
+}
