@@ -170,7 +170,7 @@ section {
 
 /* Reviews */
 #reviews {
-    min-height: 110vh;
+    min-height: 105vh;
     background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.493)), url(../images/cover3.jpg);
 }
 
@@ -196,5 +196,5 @@ section {
 
 .carousel-indicators {
     position: absolute;
-    margin-bottom: -4rem !important;
+    margin-bottom: -3rem !important;
 }
