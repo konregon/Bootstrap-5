@@ -198,3 +198,28 @@ section {
     position: absolute;
     margin-bottom: -3rem !important;
 }
+
+
+/* Reservation */
+#reservation .form-control {
+    border-radius: 0;
+}
+
+#reservation .form-control:focus {
+    box-shadow: none;
+    border-color: #faa307;
+}
+
+.form-content {
+    width: 100%;
+}
+
+#reservation .form-content:focus {
+    box-shadow: none;
+    border-color: #faa307;
+}
+
+/* Blog-post */
+.blog-post img {
+    width: 100%;
+}
