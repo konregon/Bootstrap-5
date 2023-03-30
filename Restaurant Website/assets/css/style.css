@@ -39,6 +39,10 @@ img {
     /* width: 100%; */
 }
 
+section {
+    min-height: 100vh;
+}
+
 .shadow-on-hover {
     transition: all .4s;
 }
@@ -127,4 +131,32 @@ img {
 
 .menu-item .stars {
     color: #e85d04;
+}
+
+/* features */
+#features {
+    background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.493)), url(../images/cover2.jpg);
+}
+
+.features-container {
+    height: 100vh;
+}
+
+.feature {
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+.feature .feature-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #faa307;
+    color: #fff;
+    font-size: 2rem;
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+}
+
+.feature .feature-icon i {
+    /* width: 100%; */
 }
