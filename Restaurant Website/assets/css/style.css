@@ -167,3 +167,34 @@ section {
     box-shadow: -10px -10px 0 #e85d04;
     border-radius: 110px;
 }
+
+/* Reviews */
+#reviews {
+    min-height: 110vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.493)), url(../images/cover3.jpg);
+}
+
+#reviewSlider {
+    position: relative;
+}
+
+.review img {
+    width: 105px;
+    height: 105px;
+    object-fit: cover;
+}
+
+.review .quota-icon {
+    font-size: 74px;
+    color: #faa307;
+    line-height: 1;
+}
+
+.review .stars {
+    color: #faa307;
+}
+
+.carousel-indicators {
+    position: absolute;
+    margin-bottom: -4rem !important;
+}
