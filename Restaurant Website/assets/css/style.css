@@ -219,6 +219,38 @@ section {
     border-color: #faa307;
 }
 
+/* Insta post */
+.insta-post {
+    position: relative;
+}
+
+.insta-post .insta-btn {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    opacity: 0;
+}
+
+.insta-post img {
+    transition: all 0.4s;
+}
+
+.insta-post:hover img {
+    transform: scale(1.2);
+}
+
+.insta-post:hover {
+    opacity: 1;
+}
+
 /* Blog-post */
 .blog-post img {
     width: 100%;
