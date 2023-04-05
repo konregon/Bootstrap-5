@@ -299,3 +299,29 @@ body .counter-section {
 .story-section h2 {
     color: var(--primary-color);
 }
+
+/* Explore food */
+.explore-food .card {
+    border: none;
+    background-color: transparent;
+    border-radius: 1rem;
+}
+
+.explore-food .card img {
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.explore-food .card span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    padding-bottom: 1rem;
+    border-bottom: .625rem solid #eee;
+}
+
+.explore-food .card span del {
+    color: var(--text-gray);
+    margin-left: .5rem;
+}
