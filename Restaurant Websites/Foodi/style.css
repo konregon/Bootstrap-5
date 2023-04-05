@@ -338,6 +338,7 @@ body .counter-section {
     background-color: var(--white-color);
     border-radius: 1rem;
     text-align: center;
+    min-height: 20rem;
 }
 
 .testimonial-section .carousel-item .carousel-caption {
