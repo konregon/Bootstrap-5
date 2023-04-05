@@ -187,3 +187,58 @@ p {
    Header Design
 ==========================================
 */
+
+body .navigation-wrap {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+}
+
+.navigation-wrap .nav-item {
+    padding: 0 .625rem;
+    transition: all 200ms linear;
+}
+
+.navbar .navbar-toggler:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: unset;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+
+.navigation-wrap .main-btn {
+    padding: 0.3rem 1.43rem;
+    box-shadow: none;
+    margin-left: .625rem;
+}
+
+/* Change navbar styling on scroll */
+
+.navigation-wrap .scroll-on {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--white-color);
+    box-shadow: 0 .125rem 1.75rem 0 rgba(0, 0, 0, 0.9);
+    transition: all .2s ease-in-out 0s;
+}
+
+
+/* Top banner design */
+#home .top-banner {
+    width: 100%;
+    background: url(assets/images/bg/bg-1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+}
