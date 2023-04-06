@@ -379,3 +379,18 @@ body .counter-section {
     background-position: 0 71.5px;
     padding: 1.375rem 0;
 }
+
+/* form control */
+.newsLetter {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.newsLetter .form-control {
+    height: 3.3rem;
+}
+
+.newsLetter .main-btn {
+    width: 100%;
+    margin: 0 auto;
+}
