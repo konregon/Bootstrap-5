@@ -362,3 +362,10 @@ body .counter-section {
     color: var(--primary-color);
     font-weight: 600;
 }
+
+/* FAQ */
+.faq h4 span {
+    color: var(--primary-color);
+    font-size: 1.9rem;
+    margin-right: .3rem;
+}
